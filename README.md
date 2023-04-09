@@ -2,7 +2,7 @@
 
 This repo is derived from the Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer (https://www.youtube.com/watch?v=RBSGKlAvoiM&ab_channel=freeCodeCamp.org)
 
-## What is a Data Structure?
+## What is a Data Structure
 A data structure (DS) is a way of organizing data so that it can be used (access and edit) effectively.
 
 ## Why Data Structure
@@ -17,12 +17,12 @@ An abstract data type (ADT) is an abstraction of a data structure which provides
 The interaface does not give any specific details about how something should be implemented or in what programming languages.
 
 ### Examples - Abstraction (ADT) & Implementaion (DS)
-| Type | Example|
+| Type | Example |
 | --- | --- |
-| List |Dynamic Array / Linked List / *They allow adding. removing and indexing* |
+| List | Dynamic Array / Linked List / *They allow adding. removing and indexing* |
 | Queue | Linked List based Queue / Array based Queue / Stack based Queue |
 | Map | Tree Map / Hash Map / Hash Table |
-| Vehicle -> Golf Cart / Bicycle / Smart Car |
+| Vehicle | Golf Cart / Bicycle / Smart Car |
 
 ## Computational Complexity Analysis
 
@@ -32,3 +32,9 @@ Big-O Notation gives an upper bound of the complexity in the **worst** case, hel
 #### Examples
 n -> The size of the input
 Complexities ordered in from smallest to largest
+| Complexity | Express |
+| Constant Time | O(1) |
+| Logarithmic Time | O(log(n)) |
+| Linear Time | O(n) |
+| Linearithmic Time | O(nlog(n)) [normally it is a O(log(n)) loop wrapped with a O(n) loop, or vice versa] |
+| Quadric Time | O(n^2) |
