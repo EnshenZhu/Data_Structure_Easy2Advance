@@ -19,7 +19,7 @@ The interaface does not give any specific details about how something should be 
 ### Examples - Abstraction (ADT) & Implementaion (DS)
 | Type | Example|
 | --- | --- |
-| List |1. Dynamic Array 2. Linked List 3. <They allow adding. removing and indexing>|
+| List |Dynamic Array / Linked List / <They allow adding. removing and indexing> |
 | Queue | 1. Linked List based Queue 2. Array based Queue 3. Stack based Queue |
 | Map | 1. Tree Map 2. Hash Map 3. Hash Table|
 4. Vehicle -> Golf Cart | Bicycle | Smart Car
@@ -29,6 +29,6 @@ The interaface does not give any specific details about how something should be 
 ### Big-O Notation
 Big-O Notation gives an upper bound of the complexity in the **worst** case, helping to quantify performance as the input size becomes **arbitarrily large**.
 
-####Examples
+#### Examples
 n -> The size of the input
 Complexities ordered in from smallest to largest
