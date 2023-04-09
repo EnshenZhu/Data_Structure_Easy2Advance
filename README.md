@@ -19,10 +19,10 @@ The interaface does not give any specific details about how something should be 
 ### Examples - Abstraction (ADT) & Implementaion (DS)
 | Type | Example|
 | --- | --- |
-| List |Dynamic Array / Linked List / <They allow adding. removing and indexing> |
-| Queue | 1. Linked List based Queue 2. Array based Queue 3. Stack based Queue |
-| Map | 1. Tree Map 2. Hash Map 3. Hash Table|
-4. Vehicle -> Golf Cart | Bicycle | Smart Car
+| List |Dynamic Array / Linked List / *They allow adding. removing and indexing* |
+| Queue | Linked List based Queue / Array based Queue / Stack based Queue |
+| Map | Tree Map / Hash Map / Hash Table |
+| Vehicle -> Golf Cart / Bicycle / Smart Car |
 
 ## Computational Complexity Analysis
 
