@@ -34,9 +34,19 @@ n -> The size of the input
 Complexities ordered in from smallest to largest
 | Complexity | Express |
 | --- | --- |
-| Constant Time | O(1) |
-| Logarithmic Time | O(log(n)) |
-| Linear Time | O(n) |
-| Linearithmic Time | O(nlog(n)) [normally it is a O(log(n)) loop wrapped with a O(n) loop, or vice versa] |
+| Constant Time | O($1$) |
+| Logarithmic Time | O($log(n)$) |
+| Linear Time | O($n$) |
+| Linearithmic Time | O($nlog(n)$) [normally it is a O(log(n)) loop wrapped with a O(n) loop, or vice versa] |
 | Quadric Time | O($n^2$) |
- ### Datad
+| Cubic Time | O($n^3$) |
+| Exponential Time | O($b^n$) b>1 |
+| Factorial Time | O($n!$) |
+
+### Big-O Properties
+
+$O(n+c)=O(n)$
+$O(cn)=O(n), c>0$
+
+Let f be a function that describes the running time of a particular algorithm for an input of size n:
+$f(n)=7(log(n)^3)+15n^2+2n^3+8$
