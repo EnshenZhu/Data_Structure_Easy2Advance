@@ -38,4 +38,5 @@ Complexities ordered in from smallest to largest
 | Logarithmic Time | O(log(n)) |
 | Linear Time | O(n) |
 | Linearithmic Time | O(nlog(n)) [normally it is a O(log(n)) loop wrapped with a O(n) loop, or vice versa] |
-| Quadric Time | O(n^2) |
+| Quadric Time | O($n^2$) |
+ ### Datad
