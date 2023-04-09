@@ -33,6 +33,7 @@ Big-O Notation gives an upper bound of the complexity in the **worst** case, hel
 n -> The size of the input
 Complexities ordered in from smallest to largest
 | Complexity | Express |
+| --- | --- |
 | Constant Time | O(1) |
 | Logarithmic Time | O(log(n)) |
 | Linear Time | O(n) |
