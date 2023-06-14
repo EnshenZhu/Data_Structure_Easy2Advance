@@ -1,6 +1,6 @@
 # Data_Structure_Easy2Advance
 
-This repo is derived from the Data Structures Easy to Advanced Course - Full Tutorial from a Google
+This repository is derived from the Data Structures Easy to Advanced Course - Full Tutorial from a Google
 Engineer (https://www.youtube.com/watch?v=RBSGKlAvoiM&ab_channel=freeCodeCamp.org)
 
 ## What is a Data Structure
