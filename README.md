@@ -1,15 +1,14 @@
 # Data_Structure_Easy2Advance
 
-This repository is derived from the Data Structures Easy to Advanced Course - Full Tutorial from a Google
-Engineer (https://www.youtube.com/watch?v=RBSGKlAvoiM&ab_channel=freeCodeCamp.org)
+This repository is derived from the Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer (https://www.youtube.com/watch?v=RBSGKlAvoiM&ab_channel=freeCodeCamp.org)
 
 ## What is a Data Structure
 
-A data structure (DS) is a way of organizing data so that it can be used (access and edit) effectively.
+A data structure (DS) organizes data so that it can be used (access and edit) effectively.
 
 ## Why Data Structure
 
-1. They are essential ingredients in creating fast and powerful algorithms.
+1. They are essential ingredients in creating fast and robust algorithms.
 2. They help to manage and organize data.
 3. They make code cleaner and easier to understand.
 
@@ -17,31 +16,28 @@ A data structure (DS) is a way of organizing data so that it can be used (access
 
 ### Abstract Data Type
 
-An abstract data type (ADT) is an abstraction of a data structure which provides only the interface to which a data
-structure must adhere to.
-The interaface does not give any specific details about how something should be implemented or in what programming
-languages.
+An abstract data type (ADT) is an abstraction of a data structure that provides only the interface to which a data structure must adhere.
+The interface does not specify how something should be implemented or in what programming languages.
 
-### Examples - Abstraction (ADT) & Implementaion (DS)
+### Examples - Abstraction (ADT) & Implementation (DS)
 
 | Type    | Example                                                                  |
 |---------|--------------------------------------------------------------------------|
 | List    | Dynamic Array / Linked List / *They allow adding. removing and indexing* |
-| Queue   | Linked List based Queue / Array based Queue / Stack based Queue          |
-| Map     | Tree Map / Hash Map / Hash Table                                         |
+| Queue   | Linked List-based Queue / Array-based Queue / Stack-based Queue          |
+| Map     | TreeMap / Hash Map / Hash Table                                         |
 | Vehicle | Golf Cart / Bicycle / Smart Car                                          |
 
 ## Computational Complexity Analysis
 
 ### Big-O Notation
 
-Big-O Notation gives an upper bound of the complexity in the **worst** case, helping to quantify performance as the
-input size becomes **arbitarrily large**.
+Big-O Notation gives an upper bound of the complexity in the **worst** case, helping to quantify performance as the input size becomes **arbitrarily large**.
 
 #### Examples
 
 n -> The size of the input
-Complexities ordered in from smallest to largest
+Complexities are ordered from smallest to largest
 
 | Complexity        | Express                                                                                |
 |-------------------|----------------------------------------------------------------------------------------|
@@ -70,15 +66,15 @@ $f(n)=7(log(n)^3)+15n^2+2n^3+8$; $O(f(n))=**O(n^3)**$ because $n^3$ is mostly do
 
 ## Static and Dynamic Arrays (Part 1/2)
 
-### Discussion and examples about Arrays
+### Discussion and examples of Arrays
 
 #### What is an Array?
 
-A static array is a fixed length container containing n elements **indexable** from the range [0,n-1]
+A static array is a fixed-length container containing n elements **indexable** from the range [0,n-1]
 
 **Q: What is meant by being 'indexable'**
-A: This means that each slot/index in the array can be referenced with a number. (static arrays are given as contiguous
-chunks of memory)
+A: This means that each slot/index in the array can be referenced with a number. (Static arrays are given as contiguous
+chunks of memory.)
 
 #### When and where is a static Array used?
 
