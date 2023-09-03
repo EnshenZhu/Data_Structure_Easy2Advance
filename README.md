@@ -4,7 +4,7 @@ This repository is derived from the Data Structures Easy to Advanced Course - Fu
 
 ## What is a Data Structure
 
-A data structure (DS) organizes data so that it can be used (access and edit) effectively.
+A data structure (DS) organizes data to make it be used (access and edit) effectively.
 
 ## Why Data Structure
 
@@ -16,8 +16,7 @@ A data structure (DS) organizes data so that it can be used (access and edit) ef
 
 ### Abstract Data Type
 
-An abstract data type (ADT) is an abstraction of a data structure that provides only the interface to which a data structure must adhere.
-The interface does not specify how something should be implemented or in what programming languages.
+An abstract data type (ADT) is an abstraction of a data structure that provides only the interface to which a data structure must adhere. The interface does not specify how something should be implemented or in what programming languages.
 
 ### Examples - Abstraction (ADT) & Implementation (DS)
 
@@ -73,8 +72,7 @@ $f(n)=7(log(n)^3)+15n^2+2n^3+8$; $O(f(n))=**O(n^3)**$ because $n^3$ is mostly do
 A static array is a fixed-length container containing n elements **indexable** from the range [0,n-1]
 
 **Q: What is meant by being 'indexable'**
-A: This means that each slot/index in the array can be referenced with a number. (Static arrays are given as contiguous
-chunks of memory.)
+A: This means that each slot/index in the array can be referenced with a number. (Static arrays are given as contiguous chunks of memory.)
 
 #### When and where is a static Array used?
 
