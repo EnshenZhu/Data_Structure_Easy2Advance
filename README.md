@@ -51,10 +51,10 @@ Complexities are ordered from smallest to largest
 
 ### Big-O Properties
 
-$O(n+c)=**O(n)**$; $O(cn)=**O(n)**, c>0$
+$O(n+c)=O(n)$; $O(cn)=O(n), c>0$
 
 Let f be a function that describes the running time of a particular algorithm for an input of size n:
-$f(n)=7(log(n)^3)+15n^2+2n^3+8$; $O(f(n))=**O(n^3)**$ because $n^3$ is mostly dominant in this case.
+$f(n)=7(log(n)^3)+15n^2+2n^3+8$; $O(f(n))=O(n^3)$ because $n^3$ is mostly dominant in this case.
 
 ### Classic Big-O Examples
 
